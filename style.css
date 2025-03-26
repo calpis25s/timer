@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4C3BCF;
+}
+.header{
+    margin-top: -25px;
+    color: #f5f5f5	;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer{
+    margin-top: 70px;
+    background-color: #4D869C;
+    color: #F1FAEE;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+}
+.header p{
+    font-size:20px;
+}
+.header h1{
+    font-size:25px;
+}
+th,td {
+    border: solid 3px;
+    padding: 5px 5px;
+
+}
+
+table {
+    text-align: center;
+    border-collapse:  collapse;
+}
+/* @media screen and (min-width: 500px) {
+	main{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 960px) {
+	main{
+        width: 600px;
+    }
+} */
+
+.timer{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.input{
+    text-align: center;
+}
+.timeinp{
+    color: #4C3BCF;
+    height: 100px;
+    width: 100px;
+    font-size: 75px;
+    border-radius: 5px;
+    border: 0px solid #4D869C;
+    margin: 20px;
+    padding-left: 10px;
+}
+label{
+    font-size: 70px;
+    color: #f5f5f5;
+}
+.btn{
+    margin-top: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border:0px solid #4D869C;
+    background-color: #ffffff;
+    color: #4C3BCF;
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+}
